@@ -52,47 +52,60 @@
     <section class="p-5">
       <div class="container">
         <div class="card mx-auto mb-3 w-50">
-          <img src="../img/animal.jpg" class="card-img-top" alt="..." />
+          <img
+            src="../img/pottery.JPG"
+            class="card-img-top"
+            alt="pottery image"
+          />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Pottery</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              I like pottery because I enjoy the time when I am creating
+              something.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
-        <div class="card mx-auto mb-3 w-50">
-          <img src="../img/panda.jpg" class="card-img-top" alt="..." />
+        <div class="card mx-auto mb-3 w-50 h-50">
+          <img
+            src="../img/karate.JPG"
+            class="card-img-top"
+            alt="karate image"
+          />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Karate</h5>
+            <p class="card-text">I once learned Karate in the university.</p>
+            <a href="#" class="btn btn-primary" target="_blank">Go somewhere</a>
           </div>
         </div>
       </div>
     </section>
 
     <!--Footer-->
+    <div class="container">
+      <div class="mx-auto d-block w-25" id="liveAlertPlaceholder"></div>
+    </div>
     <a id="information"></a>
     <footer class="p-5 bg-dark text-white text-center position-relative">
       <div class="container">
         <div class="h3 text-white mb-3">Contacts</div>
         <div class="row text-center justify-content-lg-center">
           <div class="col-lg-1">
-            <i class="bi bi-linkedin h2"></i>
+            <i
+              class="bi bi-linkedin h2"
+              onclick="location.href='https://www.linkedin.com/in/yao-zhong-a1a905216/'"
+            ></i>
           </div>
           <div class="col-lg-1">
-            <i class="bi bi-github h2"></i>
+            <i
+              class="bi bi-github h2"
+              onclick="location.href='https://github.com/MelancholyZhong'"
+            ></i>
           </div>
           <div class="col-lg-1">
-            <i class="bi bi-envelope-plus-fill h2"></i>
+            <i class="bi bi-envelope-plus-fill h2" onclick="copyEmail()"></i>
           </div>
           <div class="col-lg-1">
-            <i class="bi bi-telephone-plus h2"></i>
+            <i class="bi bi-telephone-plus h2" onclick="copyPhoneNumber()"></i>
           </div>
         </div>
         <a href="#" class="position-absolute bottom-0 end-0 p-5">
@@ -100,6 +113,7 @@
         </a>
       </div>
     </footer>
+    <script src="../scripts/script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
