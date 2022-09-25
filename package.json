@@ -1,0 +1,12 @@
+{
+  "name": "YaoHomePage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.9.1"
+  }
+}
