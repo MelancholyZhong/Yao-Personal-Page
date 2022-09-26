@@ -26,6 +26,14 @@ html, CSS, Bootstrap 5 and JavaScript
 
 Clone this repository and use live server.
 
+## Demo Video
+
+<a href="https://youtu.be/6MHnrJmcmYI">Demo</a>
+
+## Project Link
+
+<a href="https://melancholyzhong.github.io/Yao-Personal-Page/index.html">Site</a>
+
 ## Author
 
 Yao Zhong, devin36@gmail.com
